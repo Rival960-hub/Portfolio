@@ -32,33 +32,57 @@
 
   <section id="veille">
   <h2>Veille Technologique</h2>
-  <h3>Thème choisi : L’évolution des frameworks JavaScript</h3>
+
+  <h3>Introduction</h3>
   <p>
-    En tant que futur développeur, il est essentiel de suivre les évolutions des outils 
-    utilisés dans le développement web. Les frameworks JavaScript comme 
-    <strong>React</strong>, <strong>Vue.js</strong> et <strong>Angular</strong> 
-    permettent de créer des applications dynamiques et modernes.
+    En tant qu’étudiant en BTS SIO, passionné par le développement web et les technologies du numérique,
+    j’ai choisi de centrer ma veille technologique sur le thème des <strong>frameworks JavaScript</strong>.
+    Ce sujet m’intéresse particulièrement car il est directement lié à mon futur métier de développeur
+    et à mes compétences en HTML, CSS et JavaScript. Comprendre les évolutions des outils comme
+    <em>React</em>, <em>Vue.js</em> ou <em>Angular</em> me permet d’anticiper les attentes du marché
+    et de mieux orienter mes apprentissages.
   </p>
-  <h3>Outils utilisés pour la veille</h3>
+
+  <h3>Outils de veille utilisés</h3>
   <ul>
-    <li>Google Alerts (mots-clés : “JavaScript framework”, “React”, “Vue.js”)</li>
+    <li>Google Alerts (mots-clés : “framework JavaScript”, “React”, “Vue.js”, “Angular”)</li>
     <li>Sites spécialisés : OpenClassrooms, MDN Web Docs, Journal du Net</li>
     <li>Communautés : GitHub, Stack Overflow</li>
+    <li>Documentation officielle des frameworks</li>
   </ul>
-  <h3>Ressources</h3>
+
+  <h3>Ressources intégrées</h3>
   <ul>
     <li><a href="https://react.dev/">Documentation officielle de React</a></li>
     <li><a href="https://vuejs.org/">Documentation officielle de Vue.js</a></li>
     <li><a href="https://angular.io/">Documentation officielle de Angular</a></li>
+    <li><a href="https://developer.mozilla.org/fr/">MDN Web Docs – Référence JavaScript</a></li>
   </ul>
-  <h3>Bilan</h3>
+
+  <h3>Exemples concrets</h3>
   <p>
-    Cette veille m’a permis de comprendre que chaque framework a ses avantages : 
-    React est très populaire et flexible, Vue.js est simple à prendre en main, 
-    et Angular est complet mais plus complexe. 
-    En tant qu’étudiant, je retiens qu’il est important de tester plusieurs outils 
-    pour développer mes compétences.
+    Pour illustrer cette veille, j’ai réalisé un mini composant Angular qui affiche dynamiquement
+    une liste de compétences individuelles. Ce projet m’a permis de comprendre le fonctionnement
+    de la directive <code>*ngFor</code> et de manipuler des données dans un environnement structuré.
   </p>
+
+  <pre><code>
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  template: `
+    <h1>{{ title }}</h1>
+    <ul>
+      <li *ngFor="let skill of skills">{{ skill }}</li>
+    </ul>
+  `,
+})
+export class App {
+  title = 'Portfolio BTS SIO - Albert';
+  skills = ['HTML & CSS', 'JavaScript', 'Python', 'GitHub'];
+}
+  </code></pre>
 </section>
 
   <section id="e5">
@@ -149,13 +173,6 @@
       </tr>
     </tbody>
   </table>
-
-  <h3>Bilan personnel</h3>
-  <p>
-    Cette épreuve m’a permis de prendre conscience de mes compétences individuelles, 
-    notamment en développement web, en programmation Python et en gestion de projet. 
-    Elle m’aide à mieux me préparer au monde professionnel et à valoriser mon parcours.
-  </p>
 </section>
 
   <section id="bilan">
