@@ -58,31 +58,6 @@
     <li><a href="https://angular.io/">Documentation officielle de Angular</a></li>
     <li><a href="https://developer.mozilla.org/fr/">MDN Web Docs – Référence JavaScript</a></li>
   </ul>
-
-  <h3>Exemples concrets</h3>
-  <p>
-    Pour illustrer cette veille, j’ai réalisé un mini composant Angular qui affiche dynamiquement
-    une liste de compétences individuelles. Ce projet m’a permis de comprendre le fonctionnement
-    de la directive <code>*ngFor</code> et de manipuler des données dans un environnement structuré.
-  </p>
-
-  <pre><code>
-import { Component } from '@angular/core';
-
-@Component({
-  selector: 'app-root',
-  template: `
-    <h1>{{ title }}</h1>
-    <ul>
-      <li *ngFor="let skill of skills">{{ skill }}</li>
-    </ul>
-  `,
-})
-export class App {
-  title = 'Portfolio BTS SIO - Albert';
-  skills = ['HTML & CSS', 'JavaScript', 'Python', 'GitHub'];
-}
-  </code></pre>
 </section>
 
   <section id="e5">
