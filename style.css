@@ -80,3 +80,18 @@ ul {
 ul li {
   margin-bottom: 5px;
 }
+
+.btn-download {
+  display: inline-block;
+  background-color: #007BFF; /* bleu moderne */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #0056b3; /* bleu plus foncé au survol */
+}
