@@ -94,3 +94,7 @@ ul li {
   margin-bottom: 10px; /* évite le chevauchement vertical si responsive */
   white-space: nowrap; /* empêche le texte de passer à la ligne */
 }
+
+.btn-download:hover {
+  background-color: #0056b3; /* bleu plus foncé au survol */
+}
