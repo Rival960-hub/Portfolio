@@ -22,7 +22,6 @@ Le site est structuré en plusieurs sections :
 - HTML / CSS pour la structure et le style
 - GitHub Pages pour l’hébergement
 - VS Code comme environnement de développement
-- Git pour la gestion de version
 
 ## 📦 Organisation du projet
 
